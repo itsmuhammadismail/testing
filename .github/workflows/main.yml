@@ -15,7 +15,8 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: html-file
-          path: ~/**/*
+          # path: ~/**/*
+          path: ~/
   deploy:
     name: Deploy 🚀
     needs: build
